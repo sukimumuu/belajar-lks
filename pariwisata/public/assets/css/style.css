@@ -1,0 +1,15 @@
+.f-screen{
+    height: 100vh;
+}
+.bg-index1{
+    background-image: url('../img/index1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-input-text{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
