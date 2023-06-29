@@ -44,38 +44,69 @@
   </nav>
     {{-- END NAVBAR --}}
   <div class="col-xl-12 f-screen bg-index1">
-    <div class="d-flex mb-3 position-absolute top-50 start-50 translate-middle col-xl-6 form-input-text">
+    <div class="d-flex mb-3 position-absolute top-50 start-50 translate-middle col-xl-6 form-input-text border shadow">
       <span class="p-2"  ><i class="fa-solid fa-magnifying-glass fa-fade fa-lg" style="color: #000000;"></i></span>
       <input type="text" class="form-input-text p-2" placeholder="Search by country..." aria-label="Username" aria-describedby="basic-addon1">
       {{-- <button type="submit" class="btn btn-success">Search</button> --}}
     </div>
   </div>
-  <div class="col-xl-12 f-screen">
-    <p class="text-center mt-5 fs-4">Event Calendar</p>
-    <div class="col-xl-8 mx-auto">
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
+    <div class="col-xl-12">
+      <p class="text-center mt-5 mb-5 display-6 border-bottom col-xl-6 mx-auto">Recommended Destination</p>
+      <div class="container d-block">
+        {{-- 1 --}}
+        <div class="row col-xl-12 mb-5">
+          <div class="col-xl-4 p-0">
+            <img src="assets/img/dubai.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-xl-8">
+            <p class="fs-2">
+              Dubai
+            </p>
+            <i class="fa-solid fa-location-dot"></i>
+            <a class="icon-link text-dark" href="#">
+              Dubai, Emirate of Dubai
+            </a>
+            <p class="mt-2 text-justify">Dubai is a destination that combines modern culture with history, and adventure with world-class shopping and entertainment. Catch a show at the Dubai Opera, see downtown from the top of the Burj Khalifa, and spend the afternoon cruising Dubai Creek exploring the gold, textile and spice souks. If you're looking for a challenge, you can soar over the dunes in a hot air balloon, go on high-speed rides at IMG Worlds of Adventure or skydive over Palm Jumeirah.</p>
+            <span class="badge text-bg-success p-2 mt-5"><i class="fa-solid fa-hotel me-2"></i>Hotels</span>
+          </div>
+        </div>
+        {{-- 1 --}}
+        {{-- 2 --}}
+        <div class="row col-xl-12 mb-5">
+          <div class="col-xl-4 p-0">
+            <img src="assets/img/bali.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-xl-8">
+            <p class="fs-2">
+              Bali
+            </p>
+            <i class="fa-solid fa-location-dot"></i>
+            <a class="icon-link text-dark" href="#">
+              Bali, Indonesia
+            </a>
+            <p class="mt-2 text-justify">Bali is as beautiful as a photo on a postcard, a paradise in Indonesia that feels like a land of fantasy. Enjoy sunbathing on stretches of fine white sand, or mingle with tropical creatures as you dive along stunning coral reefs and WWII warship wrecks. On the beach, a lush forest shelters temples and wild monkeys. As an “art center”, Ubud is the perfect place to see cultural dance performances, learn to make batik or work with silver, or refresh your mind and body by joining a yoga course.</p>
+          </div>
+        </div>
+        {{-- 2 --}}
+        {{-- 3 --}}
+         <div class="row col-xl-12">
+          <div class="col-xl-4 p-0">
+            <img src="assets/img/paris.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-xl-8">
+            <p class="fs-2">
+              Paris
+            </p>
+            <i class="fa-solid fa-location-dot"></i>
+            <a class="icon-link text-dark" href="#">
+              Paris, Ile-de-France
+            </a>
+            <p class="mt-2 text-justify">Enjoy a brownie at a roadside cafe, relax after a stroll along the Seine and admire city icons like the Eiffel Tower and the Arc de Triomphe… the perfect Parisian vibe combines fun and excitement, with plenty of time to sample delicious dishes and view exhibitions at Louvre. Experience the majesty of Notre Dame, enjoy bargain shopping at the Marché aux Puces de Montreuil or, for the foodie, at the Marché Biologique Raspail, then end the day by seeing a show at the Moulin Rouge.</p>
+          </div>
+        </div>
+        {{-- 3 --}}
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-    </div>
-  </div>
   </main>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>  </body>
