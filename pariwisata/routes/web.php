@@ -14,4 +14,6 @@ use App\Http\Controllers\PagesControllers;
 |
 */
 
-Route::get('/', [PagesControllers::class,'index'])->name('login');
+Route::get('/', [PagesControllers::class,'index'])->name('index');
+Route::get('/login', [PagesControllers::class,'login'])->name('login');
+

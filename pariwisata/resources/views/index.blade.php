@@ -33,7 +33,7 @@
               More
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Login | Register</a></li>
+              <li><a class="dropdown-item" href="/login">Login | Register</a></li>
               <li><a class="dropdown-item" href="#">About</a></li>
               <li><a class="dropdown-item" href="#">F.A.Q</a></li>
             </ul>
@@ -153,44 +153,167 @@
     <div class="container">
       <div class="row col-xl-12 mt-4">
         <p class="text-center mb-5 fs-3">Most Booked Hotels</p>
-        <div class="col-xl-3">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-dubai-tab" data-bs-toggle="pill" data-bs-target="#pills-dubai" type="button" role="tab" aria-controls="pills-dubai" aria-selected="true">Emirate of Dubai</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-indo-tab" data-bs-toggle="pill" data-bs-target="#pills-indo" type="button" role="tab" aria-controls="pills-indo" aria-selected="false">Indonesia</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-france-tab" data-bs-toggle="pill" data-bs-target="#pills-france" type="button" role="tab" aria-controls="pills-france" aria-selected="false">France</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-italy-tab" data-bs-toggle="pill" data-bs-target="#pills-italy" type="button" role="tab" aria-controls="pills-italy" aria-selected="false">Italy</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-dubai" role="tabpanel" aria-labelledby="pills-dubai-tab" tabindex="0">
+            <div class="row col-xl-12 border">
+              <div class="col-xl-4 p-0">
+                <img src="assets/img/fivejumairah.webp" alt="" width="320" class="m-3 d-block mx-auto">
+              </div>
+              <div class="col-xl-8">
+                <h2 class="text-primary mt-3">Five Jumeirah Village</h2>
+                <div class="d-flex mb-3">
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                </div>
+                <p class="mb-5">Located in Dubai, 5 mi from Dubai Autodrome, Five Jumeirah Village features accommodations with a restaurant, free private parking, an outdoor swimming pool and a fitness center.</p>
+                <p class="text-secondary text-end">Prize from</p>
+                <p class="text-success fs-3 text-end">Rp.125.000</p>
+                <button class="d-block ms-auto btn btn-primary">Click for check</button>
+              </div>
+            </div>
+            <div class="row col-xl-12 border">
+              <div class="col-xl-4 p-0">
+                <img src="assets/img/fivejumairah.webp" alt="" width="320" class="m-3 d-block mx-auto">
+              </div>
+              <div class="col-xl-8">
+                <h2 class="text-primary mt-3">Five Jumeirah Village</h2>
+                <div class="d-flex mb-3">
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                </div>
+                <p class="mb-5">Located in Dubai, 5 mi from Dubai Autodrome, Five Jumeirah Village features accommodations with a restaurant, free private parking, an outdoor swimming pool and a fitness center.</p>
+                <p class="text-secondary text-end">Prize from</p>
+                <p class="text-success fs-3 text-end">Rp.125.000</p>
+                <button class="d-block ms-auto btn btn-primary">Click for check</button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-xl-3">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="tab-pane fade" id="pills-indo" role="tabpanel" aria-labelledby="pills-indo-tab" tabindex="0">
+            <div class="row col-xl-12 border">
+              <div class="col-xl-4 p-0">
+                <img src="assets/img/fivejumairah.webp" alt="" width="320" class="m-3 d-block mx-auto">
+              </div>
+              <div class="col-xl-8">
+                <h2 class="text-primary mt-3">Five Jumeirah Village</h2>
+                <div class="d-flex mb-3">
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                </div>
+                <p class="mb-5">Located in Dubai, 5 mi from Dubai Autodrome, Five Jumeirah Village features accommodations with a restaurant, free private parking, an outdoor swimming pool and a fitness center.</p>
+                <p class="text-secondary text-end">Prize from</p>
+                <p class="text-success fs-3 text-end">Rp.125.000</p>
+                <button class="d-block ms-auto btn btn-primary">Click for check</button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-xl-3">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="tab-pane fade" id="pills-france" role="tabpanel" aria-labelledby="pills-france-tab" tabindex="0">
+            <div class="row col-xl-12 border">
+              <div class="col-xl-4 p-0">
+                <img src="assets/img/fivejumairah.webp" alt="" width="320" class="m-3 d-block mx-auto">
+              </div>
+              <div class="col-xl-8">
+                <h2 class="text-primary mt-3">Five Jumeirah Village</h2>
+                <div class="d-flex mb-3">
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                </div>
+                <p class="mb-5">Located in Dubai, 5 mi from Dubai Autodrome, Five Jumeirah Village features accommodations with a restaurant, free private parking, an outdoor swimming pool and a fitness center.</p>
+                <p class="text-secondary text-end">Prize from</p>
+                <p class="text-success fs-3 text-end">Rp.125.000</p>
+                <button class="d-block ms-auto btn btn-primary">Click for check</button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-xl-3">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="tab-pane fade" id="pills-italy" role="tabpanel" aria-labelledby="pills-italy-tab" tabindex="0">
+            <div class="row col-xl-12 border">
+              <div class="col-xl-4 p-0">
+                <img src="assets/img/fivejumairah.webp" alt="" width="320" class="m-3 d-block mx-auto">
+              </div>
+              <div class="col-xl-8">
+                <h2 class="text-primary mt-3">Five Jumeirah Village</h2>
+                <div class="d-flex mb-3">
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                  <span><i class="fa-solid fa-star" style="color: #f5ae14;"></i></span>
+                </div>
+                <p class="mb-5">Located in Dubai, 5 mi from Dubai Autodrome, Five Jumeirah Village features accommodations with a restaurant, free private parking, an outdoor swimming pool and a fitness center.</p>
+                <p class="text-secondary text-end">Prize from</p>
+                <p class="text-success fs-3 text-end">Rp.125.000</p>
+                <button class="d-block ms-auto btn btn-primary">Click for check</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="container mb-5">
+      <h2 class="text-center mt-5">Favorite Tour Package</h2>
+      <div class="row col-xl-12 text-center mt-5 mb-3">
+        <div class="col-xl-2"> <a href="nav-link">France</a> </div>
+        <div class="col-xl-2"> <a href="nav-link">Dubai</a> </div>
+        <div class="col-xl-2"> <a href="nav-link">London</a> </div>
+        <div class="col-xl-2"> <a href="nav-link">Japan</a> </div>
+        <div class="col-xl-2"> <a href="nav-link">Indonesia</a> </div>
+        <div class="col-xl-2"> <a href="nav-link">China</a> </div>
+      </div>
+      <div class="row col-xl-12 text-center">
+        <div class="col-xl-2"> <a href="nav-link">Canada</a> </div>
+        <div class="col-xl-2"> <a href="nav-link">Brazil</a> </div>
+        <div class="col-xl-2"> <a href="nav-link">Swiss</a> </div>
+        <div class="col-xl-2"> <a href="nav-link">India</a> </div>
+        <div class="col-xl-2"> <a href="nav-link">Rusia</a> </div>
+        <div class="col-xl-2"> <a href="nav-link">U.S.A</a> </div>
+      </div>
+    </div>
+    <footer class="border">
+      <div class="row col-xl-12 p-5">
+        <div class="col-xl-3">
+          <h2 class="display-6 text-center">Joyvel</h2>
+        </div>
+        <div class="col-xl-6">
+          <div class="d-flex flex-column">
+            <p><a class="nav-link fs-4 fw-bold" href="#">About Joyvel</a></p>
+            <p>How to order</p>
+            <p>Contact Us</p>
+            <p>Help Center</p>
+          </div>
+
+        </div>
+        <div class="col-xl-3">
+            <p><a class="nav-link fs-4 fw-bold" href="#">Product</a></p>
+            <p>Ticket</p>
+            <p>Hotel</p>
+        </div>
+      </div>
+    </footer>
   </main>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>  </body>
