@@ -11,6 +11,6 @@ class LoginController extends Controller
         if(Auth::attempt($req->only('email','password'))){
             return redirect()->route('main');
         }
-        return back()->with('error');
+        return back();
     }
 }

@@ -1,5 +1,8 @@
 .f-screen{
-    height: 100vh;
+    height: 70vh;
+}
+.f-half{
+    height: 50vh;
 }
 .bg-index1{
     background-image: url('../img/index1.webp');

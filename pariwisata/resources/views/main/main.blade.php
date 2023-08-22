@@ -23,19 +23,25 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#destination">Destination</a>
+            <a class="nav-link" href="{{ route('destination') }}">Destination</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Hotel</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              User
+              {{ Auth::user()->name }}
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/login">Login | Register</a></li>
               <li><a class="dropdown-item" href="#">About</a></li>
               <li><a class="dropdown-item" href="#">F.A.Q</a></li>
+               @if(Auth::user()->level === 'admin')
+              <li>
+                <a class="dropdown-item" href="#">Control Panel</a>
+              </li>
+              @endif
+              <li><a class="dropdown-item" href="/logout">Logout</a></li>
             </ul>
           </li>
         </ul>

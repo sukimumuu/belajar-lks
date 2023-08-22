@@ -18,7 +18,10 @@ use App\Http\Controllers\PagesControllers;
 Route::get('/', [PagesControllers::class,'index'])->name('index');
 Route::get('/login', [PagesControllers::class,'login'])->name('login');
 Route::post('/login-process', [LoginController::class, 'store']);
+Route::get('/logout', [PagesControllers::class,'logout'])->name('logout');
+
 
 
 Route::get('/joyvel', [PagesControllers::class,'main'])->name('main');
+Route::get('/destination', [PagesControllers::class,'destination'])->name('destination');
 
